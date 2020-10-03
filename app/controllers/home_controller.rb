@@ -1,9 +1,9 @@
 class HomeController < ApplicationController
   def index
-    @title = 'タイトル'
+    @article = Article.first
   end
   def about
-    
+
   end
   
 end
